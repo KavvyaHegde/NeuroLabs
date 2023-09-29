@@ -1,0 +1,39 @@
+li span {
+    flex-grow: 1;
+    front-size: 15px;
+}
+li button{
+    background-color: #353333;
+    color:white;
+    border: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: auto;
+    padding: 8px;
+}
+li button:haver {
+ background-color: #492f35;
+ 
+}
+body{
+    font-family: serif-gray;
+    
+}
+
+ 
+ .container{
+    border: 10px solid rgb(128, 128, 128);
+    max-width: 500px;
+    margin: auto;
+    height: 9.5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+ }
+ section{
+    border: 10px solid gray;
+    height: 100vh;
+}
+
