@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    font-size: large;
+    align-content: center;
+    font-style: oblique;
+    color: aqua;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    color: aqua;
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+
+    padding: 20px;
+    border-radius: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 40px 60px;
+    background-color: #333;
+    color: rgb(10, 108, 118);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0880db;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
