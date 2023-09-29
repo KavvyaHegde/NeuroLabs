@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    font-size: 14px;
+    font-family: 'titillium web', sans-serif;
+    background-color: black;
+    color: #fefefe;
+}
+a{
+    color: #ff0042;
+    font-weight: bolder;
+    text-decoration: none;
+}
+h1{
+    font-size: 16px;
+    font-weight: bolder;
+}
+.container{
+    margin: 20px;
+    padding: 20px;
+}
+.subforum{
+    margin-top: 20px;
+}
+.subforum-title{
+    background-color: #292b2e;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 4px;
+    border-spacing: 10px;
+}
+
+.subforum-row{
+    display: grid;
+    grid-template-columns: 7% 60% 13% 20%;
+
+}
+.subforum-column{
+    padding: 10px;
+    margin: 4px;
+    border-radius: 5px;
+    background-color: #111311;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subforum-devider{
+    display: block;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(190,190,190,0), rgba(255,255,255,0.75), rgba(190, 190,190,0));
+}
+header{
+    margin-inline: 10px;
+    width: 650px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+}
+.navigation{
+    background-color: #b591c9;
+    padding: 15px;
+    width: 67%;
+    display: inline-block;
+    border-radius: 5px;
+    max-height: 80px;
+    margin-right: auto;
+    margin-left: -10px;
+    margin-inline-start: 10px;
+}
+.nav-list{
+    list-style-type: none;
+    overflow: hidden;
+}
+.nav-item{
+    float: right;
+    display: block;
+    text-align: center;
+    margin-inline: 20px;
+    font-size: 20px;
+    padding: 10px;
+    color: #fff;
+}
+.nav-item a:hover{
+    background-color: #111311;
+
+}
+.close-icon{
+    font-size: 60px;
+    float: left;
+    cursor: pointer;
+}
+.hide{
+    display: none;
+}
+.brand{
+    font-size: 60px;
+    display: inline-block;
+    color: aqua;
+}
+.form{
+    padding: 15px;
+    width: 67%;
+    display: inline-block;
+    border-radius: 5px;
+    max-height: 80px;
+    margin-right: auto;
+    margin-left: -10px;
+    margin-inline-start: 10px;
+
+}
